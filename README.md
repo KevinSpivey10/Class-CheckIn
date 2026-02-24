@@ -1,0 +1,24 @@
+class-checkin/
+  server/
+    package.json
+    index.js
+    rateLimit.js
+    sessions.js
+    utils.js
+  client/
+    package.json
+    vite.config.js
+    src/
+      main.jsx
+      App.jsx
+      api/socket.js
+      pages/
+        Landing.jsx
+        Teacher.jsx
+        Student.jsx
+      components/
+        RosterTable.jsx
+        ConsentModal.jsx
+        QrCodeBox.jsx
+      styles.css
+  README.md
