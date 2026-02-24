@@ -1,24 +1,18 @@
-class-checkin/
-  server/
-    package.json
-    index.js
-    rateLimit.js
-    sessions.js
-    utils.js
-  client/
-    package.json
-    vite.config.js
-    src/
-      main.jsx
-      App.jsx
-      api/socket.js
-      pages/
-        Landing.jsx
-        Teacher.jsx
-        Student.jsx
-      components/
-        RosterTable.jsx
-        ConsentModal.jsx
-        QrCodeBox.jsx
-      styles.css
-  README.md
+# Class Check-In (Web-only MVP)
+
+Privacy-safe class check-in:
+- Teacher creates a session code + join link + QR
+- Students join from phone browser
+- Consent required before joining
+- Live roster updates (socket.io)
+- Students self-report activity + focus toggle
+- Export CSV
+- End session
+
+## Local setup (dev)
+
+### 1) Server
+```bash
+cd server
+npm install
+npm run dev
